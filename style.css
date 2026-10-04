@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #dbe4f0; /* Светло-синий фон для шапки */
+    border-bottom: 2px solid #a0b4cc;
+    padding: 15px 0;
+    width: 100%; /* Тянется на всю ширину окна */
+}
+
+.header-container {
+    max-width: 960px; /* Максимальная ширина контента */
+    margin: 0 auto; /* Выравнивание по центру */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.site-info {
+    text-align: right;
+}
+
+.site-name {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.content-block {
+    background-color: #e6f0fa; 
+    border: 1px solid #b3d1eb;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #cce0f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inline-label {
+    display: inline;
+    font-weight: normal;
+}
+
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="date"], 
+textarea, 
+select {
+    width: 300px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #dbe4f0;
+    border-top: 2px solid #a0b4cc;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
+}
