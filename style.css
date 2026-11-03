@@ -18,12 +18,18 @@ header {
 }
 
 .header-container {
-    max-width: 960px; /* Максимальная ширина контента */
-    margin: 0 auto; /* Выравнивание по центру */
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .logo {
@@ -36,6 +42,7 @@ header {
     justify-content: center;
     background-color: #fff;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .logo img {
@@ -44,17 +51,18 @@ header {
     object-fit: cover;
 }
 
-.site-info {
-    text-align: right;
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.site-name {
-    margin: 0 0 10px 0;
-    font-size: 24px;
+nav {
+    display: flex;
+    gap: 15px;
 }
 
 nav a {
-    margin-left: 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -141,8 +149,8 @@ footer {
 }
 
 .footer-container {
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 10px;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
