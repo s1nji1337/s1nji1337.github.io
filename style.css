@@ -58,19 +58,21 @@ header {
 }
 
 .site-name {
-    margin: 0 0 15px 0;
+    margin: 0;
     font-size: 24px;
 }
 
 nav {
-    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-end;
     gap: 15px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    padding: 0;
+    border-top: none;
+    background-color: transparent;
 }
 
 nav a:hover {
