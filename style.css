@@ -8,6 +8,8 @@
     justify-content: center;
     background-color: #fff;
     overflow: hidden;
+    /* Добавлено, чтобы логотип не сжимался на узких экранах */
+    flex-shrink: 0; 
 }
 
 .logo img {
@@ -23,6 +25,7 @@ body {
 .nav-link {
     padding: 0.5rem 0;
 }
+
 @media (min-width: 768px) {
     .nav-link {
         padding: 0 0.5rem;
